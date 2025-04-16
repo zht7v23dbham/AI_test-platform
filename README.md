@@ -71,3 +71,76 @@ ___________________________
 ![image](https://github.com/user-attachments/assets/dd5f8e24-2932-4a53-aca1-b61583123cc1)
 
 ___________________________
+#整体说明
+## 主要页面和功能模块
+1. 主程序入口 ：
+   
+   - main.py - 应用程序的主入口，负责整合各个功能模块
+2. 认证与用户管理 ：
+   
+   - auth.py - 用户认证和权限管理
+   - login_app.py - 登录界面
+3. 任务管理 ：
+   
+   - tasks.py - 测试任务管理功能
+   - batch_execution.py - 批量执行任务
+4. Jenkins集成 ：
+   
+   - jenkins_manager.py - Jenkins任务管理和构建历史查看
+   - jenkins_config.json - Jenkins配置文件
+5. Git版本控制 ：
+   
+   - git_manager.py - Git仓库管理
+   - git_utils.py - Git工具函数
+   - git_commit_code.py - 代码提交功能
+   - git_resolve_conflicts.py - 冲突解决工具
+6. API测试工具 ：
+   
+   - api_manager.py - API管理
+   - api_test.py - API测试
+   - api_curl.py - cURL命令生成和执行
+   - api_locust.py - Locust性能测试
+   - api_mitmproxy.py - 代理抓包工具
+   - har_executor.py - HAR文件执行器
+7. 数据库工具 ：
+   
+   - db_utils.py - 数据库工具函数
+   - text_to_mysql.py - 文本转SQL工具
+8. UI解析工具 ：
+   
+   - ui_parser.py - UI页面解析工具
+9. 禅道报告 ：
+   
+   - zentao_report.py - 禅道测试报告生成
+10. 其他工具 ：
+    
+    - excel_diff.py - Excel文件比较
+    - code_diff.py - 代码比较
+    - md_parser.py - Markdown解析
+    - linux_monitor.py - Linux系统监控
+## 文件夹结构
+1. base/ - 基础组件和工具
+2. data/ - 数据文件存储
+3. diff_screenshots/ - 差异截图存储
+4. locust_files/ - Locust测试脚本
+5. locust_results/ - Locust测试结果
+6. output/mindmaps/ - 思维导图输出
+## 技术栈
+1. 前端框架 ：Streamlit
+2. 后端 ：Python
+3. 数据库 ：MySQL
+4. 版本控制 ：Git
+5. CI/CD ：Jenkins
+6. 测试工具 ：Locust, mitmproxy
+7. 数据可视化 ：Plotly
+## 页面流程
+1. 用户通过 login_app.py 登录系统
+2. 登录后进入 main.py 定义的主界面
+3. 用户可以选择不同的功能模块：
+   - 任务管理
+   - Jenkins管理
+   - Git仓库管理
+   - API测试
+   - 数据库工具
+   - UI解析
+   - 报告生成等
