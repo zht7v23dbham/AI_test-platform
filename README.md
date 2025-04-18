@@ -61,7 +61,8 @@ ___________________________
 # Git管理平台：支持本系统代码提交gitlib
 # jenkins管理平台： 支持现有所有Jenkins环境发布执行
 #
-![image](https://github.com/user-attachments/assets/37daf30b-e3ca-46b6-916b-37d1efcb22c9)
+![image](https://github.com/user-attachments/assets/ed3c6a75-323b-4c28-85ef-59c0b381418c)
+
 
 #
 #部分功能截图
