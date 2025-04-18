@@ -1,0 +1,7 @@
+{
+    "默认配置": {
+        "url": "http://XXXXXXXX:8080/",
+        "username": "XXXXXX",
+        "token": "XXXXXXXXX"
+    }
+}

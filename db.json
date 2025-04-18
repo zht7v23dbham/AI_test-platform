@@ -1,0 +1,22 @@
+{
+    "localhost": {
+        "host": "localhost",
+        "database": "XXXXXXX",
+        "user": "XXXX",
+        "password": "XXXX"
+    },
+    "zentao_XXXXX": {
+        "user": "XXXX",
+        "password": "XXXXXX",
+        "host": "XXXXXXXXX",
+        "port": XXXXXX,
+        "database": "XXXXX"
+    },
+    "default": {
+        "user": "XXX",
+        "password": "XXXXX",
+        "host": "XXXXXX",
+        "port": XXXXX,
+        "database": "XXXXXXXX"
+    }
+}

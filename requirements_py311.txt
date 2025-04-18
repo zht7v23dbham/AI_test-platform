@@ -1,0 +1,31 @@
+paddleocr==2.10.0
+paddlepaddle==3.0.0
+pandas==2.2.3
+PyPDF2==3.0.1
+PyQt5==5.15.11
+python-docx==1.1.2
+openpyxl==3.1.5
+numpy>=1.24.4  # 更新为Python 3.11兼容的版本
+opencv-python==4.7.0.72
+Markdown==3.7
+lxml==5.3.1
+locust==2.33.2
+ollama==0.4.7
+PyYAML==6.0.2
+nltk==3.9.1
+openai==1.65.1
+tabulate==0.9.0
+streamlit==1.24.0
+mysql-connector-python==8.0.33
+plotly==6.0.1
+Faker==37.1.0
+allpairspy==2.5.1
+psutil==7.0.0  # 注释掉不存在的包
+haralyzer==2.4.0
+streamlit-option-menu==0.4.0
+streamlit-tags==1.2.8
+html5lib>=1.1
+beautifulsoup4==4.13.3
+GitPython==3.1.44
+python-jenkins==1.8.2
+paramiko==3.4.0
