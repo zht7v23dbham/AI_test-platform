@@ -1,4 +1,4 @@
-# AI_test-platform
+# AI_test_platform
 
 - streamlit run main.py  #执行
 - streamlit run main.py --server.port 8080  #指定端口
